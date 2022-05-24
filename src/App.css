@@ -71,3 +71,10 @@ footer .icons {
 footer .icons box-icon {
   margin: 10px;
 }
+#contactIdLink {
+  text-decoration: none;
+}
+#contactIdLink:active,
+#contactIdLink:focus {
+  text-decoration: none;
+}

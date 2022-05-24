@@ -1,5 +1,6 @@
 import { Button } from "@mui/material";
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 import Typical from "react-typical";
 import "../../App.css";
 import me1Image from "../Assets/Images/me.svg";
@@ -34,7 +35,9 @@ function Home() {
               harum? Quas totam quis exercitationem eius quasi soluta alias unde
               eos.
             </p>
-            <Button variant="contained">contact me</Button>
+            <Link smooth to="#contact" id="contactIdLink">
+              <Button variant="contained">contact me</Button>
+            </Link>
             <Button variant="contained" style={{ marginLeft: "20px" }}>
               browse portfolio
             </Button>
