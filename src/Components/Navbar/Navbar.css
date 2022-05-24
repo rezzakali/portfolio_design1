@@ -1,0 +1,24 @@
+.navbar-toggler-icon {
+  background-color: rgb(119, 0, 255);
+  border-radius: 5px;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+#navBarId {
+  background-color: rgb(27, 20, 26);
+}
+
+#bland {
+  color: blueviolet;
+  margin-left: 20px;
+}
+ul {
+  margin-left: 20px;
+}
+ul li {
+  margin-left: 20px;
+}
